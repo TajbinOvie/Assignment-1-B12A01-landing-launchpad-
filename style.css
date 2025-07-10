@@ -39,6 +39,10 @@ header {
     cursor: pointer;
 }
 
+.navbar button:hover {
+    background-color: rgb(1, 1, 122);
+}
+
 .hero_section {
     padding-top: 100px;
     padding-bottom: 150px;
@@ -69,4 +73,59 @@ header {
     border-radius: 10px;
     cursor: pointer;
     margin-left: 300px;
+}
+
+.hero button:hover {
+    background-color: rgb(1, 1, 122);
+}
+
+.max_width {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.bg_color {
+    background-color: #F5F8FF;
+}
+
+.first_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.text_area h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #252432;
+    margin-bottom: 20px;
+    /* color: #252432; */
+}
+
+.text_area p {
+    font-size: 20px;
+    color: #8D8E98;
+    margin-bottom: 30px;
+    width: 70%;
+}
+
+.text_area button {
+    background-color: #4E47FF;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    /* font-weight: 600; */
+    /* letter-spacing: 1px; */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.text_area button:hover {
+    background-color: rgb(1, 1, 122);
+}
+
+.first_container img {
+    border-radius: 50px;
 }
