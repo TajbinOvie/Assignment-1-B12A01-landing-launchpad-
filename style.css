@@ -92,7 +92,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 100px 0;
+    padding: 120px 0;
 }
 
 .text_area h1 {
@@ -129,3 +129,36 @@ header {
 .first_container img {
     border-radius: 50px;
 }
+
+.second_container {
+    background-color: #E5E7FF;
+    border-radius: 20px;
+}
+
+.secondary_container_heading {
+    text-align: center;
+    padding: 50px 0;
+    font-size: 40px;
+    font-weight: 600;
+    
+}
+
+.rating {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+
+.item_title {
+    font-size: 70px;
+    /* font-weight: 1000; */
+    color: #4E47FF;;
+}
+
+.item_text {
+    color: #8D8E98;
+    font-size: 18px;
+}
+
