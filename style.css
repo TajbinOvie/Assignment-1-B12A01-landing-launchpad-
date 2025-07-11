@@ -165,7 +165,7 @@ header {
 
 .card {
     background-color: #FAFCFF;
-    width: 333px;
+    width: 360px;
     height: 222px;
     /* border: 1px solid; */
     border-radius: 10px;
@@ -207,6 +207,7 @@ header {
     font-size: 16px;
     padding-bottom: 10px;
     padding-left: 20px;
+    padding-right: 10px;
 }
 
 .bottom_card_section {
@@ -236,7 +237,57 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 50px;
+    /* padding: 0 50px; */
     gap: 20px;
 }
 
+.fourth_container {
+    background-color: #FFFFFF;
+    margin-top: 100px;
+    padding: 50px 0px;
+    border-radius: 20px;
+}
+
+.fourth_text_area {
+    text-align: center;
+}
+
+.fourth_text_area h1 {
+    font-size: 50px;
+    /* font-weight: 600; */
+    color: #252432;
+    /* margin-bottom: 20px; */
+    /* padding-top: 50px; */
+}
+
+.fourth_text_area p {
+    font-size: 16px;
+    color: #8D8E98;
+    padding: 20px 0px;
+}
+
+.fourth_text_area button {
+    background-color: #4E47FF;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    /* font-weight: 600; */
+    /* letter-spacing: 1px; */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.fourth_text_area button:hover {
+    background-color: rgb(1, 1, 122);
+}
+
+.fourth_container img {
+    /* width: 100%; */
+    height: auto;
+    border-radius: 50px;
+    display: block;
+    margin: 0 auto;
+    /* margin-bottom: 100px; */
+}
