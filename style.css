@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
 
-.inter-normal {
-  font-family: "Inter", sans-serif;
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
@@ -56,7 +57,7 @@ header {
 
 .hero h1 {
     font-size: 60px;
-    font-weight: 600;
+    /* font-weight: 600; */
     color: #252432;
     margin-bottom: 30px;
     text-align: center;
