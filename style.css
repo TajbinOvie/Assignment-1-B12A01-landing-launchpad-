@@ -155,7 +155,7 @@ header {
 .item_title {
     font-size: 70px;
     /* font-weight: 1000; */
-    color: #4E47FF;;
+    color: #4E47FF;
 }
 
 .item_text {
@@ -346,3 +346,30 @@ input, textarea {
     background-color: rgb(1, 1, 122);
 }
 
+footer {
+    background-color: white;
+    text-align: center;
+}
+
+footer h1 {
+    font-size: 80px;
+    font-weight: 1000;
+    color: #4E47FF;
+    padding-top: 100px;
+}
+
+footer p {
+    color: #8D8E98;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    color: #8D8E98;
+    padding-bottom: 100px;
+}
