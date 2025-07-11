@@ -352,20 +352,25 @@ footer {
     text-align: center;
 }
 
-footer h1 {
+.footer_section {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.footer_section h1 {
     font-size: 80px;
     font-weight: 1000;
     color: #4E47FF;
     padding-top: 100px;
 }
 
-footer p {
+.footer_section p {
     color: #8D8E98;
     padding-top: 20px;
     padding-bottom: 30px;
 }
 
-footer ul {
+.footer_section ul {
     display: flex;
     justify-content: center;
     align-items: center;
